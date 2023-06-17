@@ -21,8 +21,8 @@ def option1(message):
       Escolha um caminho do vazio para seguir
       /division1 Division Path 1
       /division2 Division Path 2
-      /division3 Division Path 3"""
-      bot.message(message.chat.id, text)
+      /division3 Division Path 3 """
+      bot.send_message(message.chat.id, text)
 
 @bot.message_handler(commands=["option2"])
 def option2(message): 
